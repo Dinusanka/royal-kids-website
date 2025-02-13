@@ -400,3 +400,16 @@ footer {
   margin: 0 auto; /* Center the plugin */
   display: block;
 }
+
+/* Optional: Adjust the height for better responsiveness */
+@media screen and (max-width: 768px) {
+  .fb-page {
+    height: 500px; /* Reduce height on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fb-page {
+    height: 400px; /* Reduce height further on very small screens */
+  }
+}
