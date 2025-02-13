@@ -385,3 +385,31 @@ footer {
     padding: 6px 12px;
   }
 }
+
+/* Make the Facebook section take full width */
+.facebook-feed {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.fb-page {
+  width: 100% !important;  /* Ensure the plugin takes full width */
+  max-width: 100% !important;  /* Prevent it from being constrained */
+  margin: 0 auto; /* Center the plugin */
+  display: block;
+}
+
+/* Optional: Adjust the height for better responsiveness */
+@media screen and (max-width: 768px) {
+  .fb-page {
+    height: 500px; /* Reduce height on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fb-page {
+    height: 400px; /* Reduce height further on very small screens */
+  }
+}
